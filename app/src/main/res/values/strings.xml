@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CineEase</string>
+
+
+    <string name="user_name">Hello, Dias Welcome Back!</string>
+    <string name="user_text">Selamat menonton film kesukaan kamu!</string>
+
+    <string name="title_main">Film Sedang Tayang</string>
+
+    <string name="film_name1">Ant Man</string>
+    <string name="film_description1">Seorang ilmuwan brilian yang memperkecil dirinya menjadi superhero, bertarung melawan kejahatan dengan kekuatan seukuran semut. Tapi apakah dia cukup kecil untuk menghadapi ancaman yang sebenarnya?</string>
+
+    <string name="film_name2">Black Panther</string>
+    <string name="film_description2">Di negeri maju Wakanda, seorang pangeran muda harus melawan musuh-musuh yang mengancam takhta dan keamanan negerinya. Dengan teknologi canggih dan kekuatan panter legendaris, dia berdiri sebagai pelindung yang tak tertandingi.</string>
+
+    <string name="film_name3">Captain Marvel</string>
+    <string name="film_description3">Seorang pilot militer yang berani secara misterius mendapatkan kekuatan kosmik yang tak terbatas, mengubahnya menjadi pahlawan luar angkasa yang kuat. Tapi ketika ancaman dari luar angkasa datang, dia harus memahami asal-usul kekuatannya untuk menyelamatkan bumi.</string>
+
+    <string name="film_name4">Doctor Strange</string>
+    <string name="film_description4">Seorang ahli bedah yang brilian dan sombong mendapatkan kekuatan sihir setelah mengalami kecelakaan yang menghancurkan karirnya. Dia belajar di bawah bimbingan seorang penyihir tua untuk melindungi dunia dari ancaman supernatural.</string>
+
+    <string name="film_name5">End Game</string>
+    <string name="film_description5">Setelah kekalahan telak, para pahlawan terakhir bumi harus menghadapi kekalahan terbesar mereka. Dengan kekuatan terakhir yang tersisa, mereka harus berani melakukan perjalanan waktu untuk mengubah masa depan yang sudah ditentukan.</string>
+</resources>
