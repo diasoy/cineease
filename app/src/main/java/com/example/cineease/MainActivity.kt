@@ -1,6 +1,5 @@
 package com.example.cineease
 
-import Film
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -10,6 +9,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.example.cineease.adapter.BannerAdapter
+import com.example.cineease.adapter.FilmData
+import com.example.cineease.adapter.ListFilmAdapter
+import com.example.cineease.data.Film
 import com.example.cineease.style.SpaceItemDecoration
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import me.relex.circleindicator.CircleIndicator3
@@ -17,7 +19,6 @@ import me.relex.circleindicator.CircleIndicator3
 class MainActivity : AppCompatActivity() {
     private lateinit var rvFilm: RecyclerView
     private var list: ArrayList<Film> = arrayListOf()
-
 
     private lateinit var viewPager: ViewPager2
     private lateinit var indicator: CircleIndicator3
@@ -36,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         rvFilm = findViewById(R.id.rv_film)
-        rvFilm.addItemDecoration(SpaceItemDecoration(160)) // Now rvFilm has been initialized
+        rvFilm.addItemDecoration(SpaceItemDecoration(160))
 
         viewPager = findViewById(R.id.viewPager)
         indicator = findViewById(R.id.indicator)
@@ -54,10 +55,12 @@ class MainActivity : AppCompatActivity() {
         showRecyclerList()
 
         val navView: BottomNavigationView = findViewById(R.id.bottom_navigation)
+        navView.selectedItemId = R.id.navigation_home
 
         navView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
+                    // Do nothing, we're already here
                     true
                 }
                 R.id.navigation_snack -> {

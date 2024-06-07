@@ -21,4 +21,42 @@
 
     <string name="film_name5">End Game</string>
     <string name="film_description5">Setelah kekalahan telak, para pahlawan terakhir bumi harus menghadapi kekalahan terbesar mereka. Dengan kekuatan terakhir yang tersisa, mereka harus berani melakukan perjalanan waktu untuk mengubah masa depan yang sudah ditentukan.</string>
+
+
+    <string name="snack_name1">Bucket Popcorn</string>
+    <string name="snack_name2">Box Popcorn</string>
+
+    <string name="drink_name1">Ice Chocolate</string>
+    <string name="drink_name2">Coca Cola</string>
+
+    <string-array name="data_name_snack">
+        <item>Bucket Popcorn</item>
+        <item>Box Popcorn</item>
+    </string-array>
+
+    <string-array name="data_price_snack">
+        <item>Rp 15.000</item>
+        <item>Rp 10.000</item>
+    </string-array>
+
+    <string-array name="data_photo_snack">
+        <item>@drawable/bucket_popcorn</item>
+        <item>@drawable/box_popcorn</item>
+    </string-array>
+
+    <string-array name="data_name_drink">
+        <item>Ice Chocolate</item>
+        <item>Coca Cola</item>
+    </string-array>
+
+    <string-array name="data_price_drink">
+        <item>Rp 20.000</item>
+        <item>Rp 10.000</item>
+    </string-array>
+
+    <string-array name="data_photo_drink">
+        <item>@drawable/ice_chocolate</item>
+        <item>@drawable/coca_cola</item>
+    </string-array>
+
 </resources>

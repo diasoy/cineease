@@ -1,6 +1,6 @@
 package com.example.cineease
 
-import Film
+import com.example.cineease.data.Film
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
