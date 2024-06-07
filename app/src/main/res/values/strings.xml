@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">CineEase</string>
-
+    <string name="app_name">Cineease</string>
+    <string name="buy">Buy</string>
+    <string name="price_format">Price: %1$d</string>
 
     <string name="user_name">Hello, Dias Welcome Back!</string>
     <string name="user_text">Selamat menonton film kesukaan kamu!</string>
